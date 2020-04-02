@@ -1,5 +1,7 @@
 # Visualizer for the Covid19 dataset
 
+This repository provides instructions how to run the interactive 3D visualizer to explore Covid19 papers.
+
 ## Instuctions for running the jupyter notebook locally
 
 ### Cloning the repository and installing the dependencies
@@ -13,14 +15,14 @@
 
 - Once all dependencies are installed, from the main project directory run:
 
-```Python
+```shell
 poetry run gdown https://drive.google.com/uc?id=151jJIOuB_MUiFnJ5VM7Je6IcbFbNH-KL -O data/body_volume_mini.npz
 poetry run gdown https://drive.google.com/uc?id=1wANDPte4_OTIAwq4SREknnCIYTpbgYDm -O data/data_frame_small.json
 ```
 
 if you use [Poetry](https://python-poetry.org/), otherwise:
 
-```Python
+```shell
 gdown https://drive.google.com/uc?id=151jJIOuB_MUiFnJ5VM7Je6IcbFbNH-KL -O data/body_volume_mini.npz
 gdown https://drive.google.com/uc?id=1wANDPte4_OTIAwq4SREknnCIYTpbgYDm -O data/data_frame_small.json
 ```
