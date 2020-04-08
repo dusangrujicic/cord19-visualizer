@@ -1,6 +1,6 @@
 # Visualizer for the Covid19 dataset
 
-This repository provides instructions how to run the interactive 3D visualizer to explore Covid19 papers.
+This repository provides instructions on how to run the interactive 3D visualizer to explore Covid19 papers.
 
 ## Instuctions for running the jupyter notebook locally
 
@@ -9,25 +9,27 @@ This repository provides instructions how to run the interactive 3D visualizer t
 - Clone the repository: `git clone https://github.com/gorjanradevski/covid19-visualizer.git`
 - If you use [Poetry](https://python-poetry.org/), navigate to the project directory and run `poetry install`. This will install all the required packages.
 
-- Otherwise, make sure to install all dependencies specified in the `requirements.txt` file. For example, by running `pip install requirements.txt` you will have all required packages locally.
+- Otherwise, make sure to install all dependencies specified in the `requirements.txt` file. For example, by running `pip install -r requirements.txt` you will have all required packages locally.
 
 ### Fetching the data
 
 - Once all dependencies are installed, from the main project directory run:
 
 ```shell
-poetry run gdown https://drive.google.com/uc?id=151jJIOuB_MUiFnJ5VM7Je6IcbFbNH-KL -O data/body_volume_mini.npz
-poetry run gdown https://drive.google.com/uc?id=1wANDPte4_OTIAwq4SREknnCIYTpbgYDm -O data/data_frame_small.json
+poetry run gdown https://drive.google.com/uc?id=19b_TP8CKkBPoziiO8m5sVsKSTgmAk-kZ -O data/body_volume.npy
+poetry run gdown https://drive.google.com/uc?id=1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO -O data/hull_faces.npy
+poetry run gdown https://drive.google.com/uc?id=1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1 -O data/mapped_articles.json 
 ```
 
 if you use [Poetry](https://python-poetry.org/), otherwise:
 
 ```shell
-gdown https://drive.google.com/uc?id=151jJIOuB_MUiFnJ5VM7Je6IcbFbNH-KL -O data/body_volume_mini.npz
-gdown https://drive.google.com/uc?id=1wANDPte4_OTIAwq4SREknnCIYTpbgYDm -O data/data_frame_small.json
+gdown https://drive.google.com/uc?id=19b_TP8CKkBPoziiO8m5sVsKSTgmAk-kZ -O data/body_volume.npy
+gdown https://drive.google.com/uc?id=1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO -O data/hull_faces.npy
+gdown https://drive.google.com/uc?id=1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1 -O data/mapped_articles.json
 ```
 
-- Other option is to download the two needed files [body_volume_mini.npz](https://drive.google.com/file/d/151jJIOuB_MUiFnJ5VM7Je6IcbFbNH-KL/view?usp=sharing), and [data_frame_small.json](https://drive.google.com/file/d/1wANDPte4_OTIAwq4SREknnCIYTpbgYDm/view?usp=sharing) directly from Google Drive and move them to the `data/` directory.
+- Other option is to download the three needed files [body_volume.npy](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing), [hull_faces.npy](https://drive.google.com/file/d/1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO/view?usp=sharing) and [mapped_articles.json](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing) directly from Google Drive and move them to the `data/` directory.
 
 ### Running the notebook
 
