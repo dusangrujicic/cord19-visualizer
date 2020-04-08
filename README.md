@@ -1,4 +1,4 @@
-# Visualizer for the Covid19 dataset
+# Visual retrieval for CORD-19
 
 This repository provides instructions on how to run the interactive 3D visualizer to explore Covid19 papers.
 
