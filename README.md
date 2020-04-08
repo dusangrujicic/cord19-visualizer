@@ -37,12 +37,6 @@ gdown https://drive.google.com/uc?id=1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1 -O data/m
 
 - Otherwise, run `jupyter notebook`.
 
-## Instructions for running the notebook on Google Colab
-
-Open the notebook from the link bellow and follow the instructions in the notebook. However, it is possible that Google Colab is not able to run the interactive visualization due to backend issues. If that is the case, you have to follow the instructions for running the notebook locally.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gorjanradevski/covid19-visualizer/blob/master/visualizer-demo.ipynb)
-
 ## Authors
 
 Dusan Grujicic, [Gorjan Radevski](http://gorjanradevski.github.io/), [Tinne Tuytelaars](https://homes.esat.kuleuven.be/~tuytelaa/), [Matthew Blaschko](https://homes.esat.kuleuven.be/~mblaschk/)
