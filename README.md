@@ -1,6 +1,6 @@
 # Visual retrieval for CORD-19
 
-This repository provides instructions on how to run the interactive 3D visualizer to explore Covid19 papers.
+This repository provides instructions on how to run the interactive 3D visualizer to explore articles in the Cord19 Dataset (https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
 ## Instuctions for running the jupyter notebook locally
 
