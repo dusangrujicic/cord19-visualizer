@@ -17,7 +17,7 @@ The downloaded file contains images of the male head (head.zip) and torso (inner
 
 The innerorgans/rgb/ directory, which constains slices of the human atlas in the form of .tif images, is used in the visualization notebook. It should be moved to the data/ directory of the project prior to running the notebook.
 
-In case the model cannot be obtained, a mock file [body_volume_mock.npy], containing the anonymized body volume (just its outline), can be used to illustrate the principle.
+In case the model cannot be obtained, a mock file (body_volume_mock.npy) containing the anonymized body volume (just its outline), can be used to illustrate the principle.
 
 
 ### Fetching the data
