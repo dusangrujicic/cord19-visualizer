@@ -28,15 +28,7 @@ gdown https://drive.google.com/uc?id=1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO -O data/h
 gdown https://drive.google.com/uc?id=1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1 -O data/mapped_articles.json 
 ```
 
-if you use [Poetry](https://python-poetry.org/), otherwise:
-
-```shell
-gdown https://drive.google.com/uc?id=19b_TP8CKkBPoziiO8m5sVsKSTgmAk-kZ -O data/body_volume_mock.npy
-gdown https://drive.google.com/uc?id=1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO -O data/hull_faces.npy
-gdown https://drive.google.com/uc?id=1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1 -O data/mapped_articles.json
-```
-
-- Other option is to download the three needed files [body_volume_mock.npy](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing), [hull_faces.npy](https://drive.google.com/file/d/1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO/view?usp=sharing) and [mapped_articles.json](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing) directly from Google Drive and move them to the `data/` directory.
+- Another option is to download the three needed files [body_volume_mock.npy](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing), [hull_faces.npy](https://drive.google.com/file/d/1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO/view?usp=sharing) and [mapped_articles.json](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing) directly from Google Drive and move them to the `data/` directory.
 
 ### Running the notebook
 
