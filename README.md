@@ -15,7 +15,7 @@ Instructions for obtaining the human atlas can be found on the [Voxel-Man websit
 
 The downloaded file contains images of the male head (head.zip) and torso (innerorgans.zip). The unzipped directory innerograns/, contains the list of objects (organs), and three directories, CT/, labels/, rgb/.
 
-The innerorgans/rgb/ directory, which constains slices of the human atlas in the form of .tif images, is used in the visualization notebook. It should be moved to the data/ directory of the repository prior to running the notebook.
+The innerorgans/rgb/ directory, which constains slices of the human atlas in the form of .tif images, is used in the visualization notebook. It should be moved to the data/ directory of the project prior to running the notebook.
 
 
 ### Fetching the data
