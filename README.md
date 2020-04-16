@@ -13,11 +13,9 @@ This repository provides instructions on how to run the interactive 3D visualize
 
 Instructions for obtaining the human atlas can be found on the [Voxel-Man website] (https://www.voxel-man.com/segmented-inner-organs-of-the-visible-human/)
 
-The downloaded file contains images of the male head (head.zip) and torso (innerorgans.zip). The unzipped directory innerograns/, contains the list of objects (organs), and three directories, CT/, labels/, rgb/.
+The obtained model contains images of the male head (head.zip) and torso (innerorgans.zip). The unzipped directory innerograns/, contains the list of objects (organs), and three directories, CT/, labels/, rgb/.
 
 The innerorgans/rgb/ directory, which constains slices of the human atlas in the form of .tif images, is used in the visualization notebook. It should be moved to the data/ directory of the project prior to running the notebook.
-
-In case the model cannot be obtained, a mock file (body_volume_mock.npy) containing the anonymized body volume (just its outline), can be used to illustrate the principle.
 
 
 ### Fetching the data
@@ -25,12 +23,11 @@ In case the model cannot be obtained, a mock file (body_volume_mock.npy) contain
 - Once all dependencies are installed, from the main project directory run:
 
 ```shell
-gdown https://drive.google.com/uc?id=19b_TP8CKkBPoziiO8m5sVsKSTgmAk-kZ -O data/body_volume_mock.npy
 gdown https://drive.google.com/uc?id=1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO -O data/hull_faces.npy
 gdown https://drive.google.com/uc?id=1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1 -O data/mapped_articles.json 
 ```
 
-- Another option is to download the three needed files [body_volume_mock.npy](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing), [hull_faces.npy](https://drive.google.com/file/d/1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO/view?usp=sharing) and [mapped_articles.json](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing) directly from Google Drive and move them to the `data/` directory.
+- Another option is to download the three needed files [hull_faces.npy](https://drive.google.com/file/d/1Y4v3vePcH6fqyBpdxWHkE1kFEca4BCmO/view?usp=sharing) and [mapped_articles.json](https://drive.google.com/file/d/1jnWJ4hF0T-aMYXpLuBe6e-QcdvnFEAo1/view?usp=sharing) directly from Google Drive and move them to the `data/` directory.
 
 ### Running the notebook
 
