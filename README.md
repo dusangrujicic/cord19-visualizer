@@ -9,6 +9,15 @@ This repository provides instructions on how to run the interactive 3D visualize
 - Clone the repository: `git clone https://github.com/dusangrujicic/cord19-visualizer.git`
 - If you use [Poetry](https://python-poetry.org/), navigate to the project directory and run `poetry install`. This will install all the required packages. Otherwise, make sure to install all dependencies specified in the `requirements.txt` file. By running `pip install -r requirements.txt` all dependencies will be installed.
 
+### Downloading the human atlas
+
+Instructions for obtaining the human atlas can be found on the [Voxel-Man website] (https://www.voxel-man.com/segmented-inner-organs-of-the-visible-human/)
+
+The downloaded file contains images of the male head (head.zip) and torso (innerorgans.zip). The unzipped directory innerograns/, contains the list of objects (organs), and three directories, CT/, labels/, rgb/.
+
+The innerorgans/rgb/ directory is used in the visual tool, and should be moved to the data/ directory in the project prior to running the notebook.
+
+
 ### Fetching the data
 
 - Once all dependencies are installed, from the main project directory run:
