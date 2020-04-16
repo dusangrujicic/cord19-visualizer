@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "covid19-visualizer"
+name = "cord19-visualizer"
 version = "0.1.0"
 description = ""
 authors = ["gorjanradevski <gorjanradevski@gmail.com>"]
