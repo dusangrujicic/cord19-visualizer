@@ -19,7 +19,7 @@ The `innerorgans/rgb/` directory, which constains slices of the human atlas in t
 
 In case the atlas is not provided in the form of a `data/rgb/` directory with .tif images, running the the notebook will require a mock file of the body volume, which can be obtrained by running:
 ```shell
-gdown https://drive.google.com/uc?id=1IoR6NNQQuyax_VsX_ZCFll4rsSHR0snz -O data/body_volume_mock.npy
+gdown https://drive.google.com/uc?id=1oVN4vLFuouUMJqEN6SyRmHishLZ-a9C- -O data/body_volume_mock.npy
 ```
 This mock file contains the rudimentary outline of a human body and can be used to illustrate the concept. In order to visualize the actual organs and tissues as per the 3D human atlas, the Voxel-Man model would need to be obtrained. 
 
