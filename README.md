@@ -17,7 +17,13 @@ The obtained model contains images of the male head `head.zip` and torso `innero
 
 The `innerorgans/rgb/` directory, which constains slices of the human atlas in the form of `.tiff` images, is used in the visualization notebook. It should be moved to the `data/` directory of the project prior to running the notebook.
 
-### Fetching the data
+In case the atlas is not provided in the form of a `data/rgb/` directory with .tif images, running the the notebook will require a mock file of the body volume, which can be obtrained by running:
+```shell
+gdown https://drive.google.com/uc?id=1IoR6NNQQuyax_VsX_ZCFll4rsSHR0snz -O data/body_volume_mock.npy
+```
+This mock file contains the rudimentary outline of a human body and can be used to illustrate the concept. In order to visualize the actual organs and tissues as per the 3D human atlas, the Voxel-Man model would need to be obtrained. 
+
+### Fetching the additional data
 
 Once all dependencies are installed, from the main project directory run:
 
